@@ -12,4 +12,4 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
 
 0. Randomness and Noise
     1. [Random Walker](https://editor.p5js.org/mhoumann87/sketches/cWyhkRh9V)
-    2. [Random Number Distribution](https://editor.p5js.org)
+    2. [Random Number Distribution](https://editor.p5js.org/mhoumann87/sketches/W53D6-MPrd)

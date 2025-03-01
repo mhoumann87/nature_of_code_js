@@ -5,8 +5,9 @@ class Walker {
   }
 
   show() {
-    stroke(0);
-    point(this.x, this.y);
+    noStroke();
+    fill(0);
+    rect(this.x, this.y, 5, 5);
   }
 
   step() {

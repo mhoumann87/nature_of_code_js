@@ -6,7 +6,7 @@ function setup() {
   // Create a new walker object
   walker = new Walker();
 
-  background(250);
+  background(210);
 
 }
 

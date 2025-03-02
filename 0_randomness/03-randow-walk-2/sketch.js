@@ -1,6 +1,6 @@
 /* 
   Author Michael Houmann
-  Made 01. March 2025
+  Created 01. March 2025
 
   Exercise 0.1 from the Nature of Code book.
   Make a random walker that has a greater tendency to walk right and down.

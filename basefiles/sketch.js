@@ -1,3 +1,8 @@
+/* 
+  Author Michael Houmann
+  Created 
+*/
+
 function setup() {
   createCanvas(640, 400);
 }

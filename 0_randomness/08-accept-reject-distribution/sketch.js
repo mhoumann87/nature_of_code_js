@@ -62,6 +62,4 @@ function draw() {
   for (let x = 0; x < randomCounts.length; x++) {
     rect(x * w, height - randomCounts[x], w - 1, randomCounts[x]);
   }
-
-
 }

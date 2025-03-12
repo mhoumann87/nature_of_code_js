@@ -23,7 +23,7 @@ class Walker {
   show() {
     stroke(0);
     strokeWeight(2);
-    fill(127, 9);
+    fill(127, 5);
     circle(this.x, this.y, 20);
   }
 }

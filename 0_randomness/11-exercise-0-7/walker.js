@@ -1,5 +1,5 @@
 /*
-  The walker here use the noise() function to set the size of the step, and we map the result of the function between 1 and 5
+  The walker here, use the noise() function to decide the step size and direction.
 */
 
 class Walker {

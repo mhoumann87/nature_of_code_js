@@ -31,10 +31,10 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
        - [Coding Train Video Tutorial](https://youtu.be/y7sgcFhk6ZM?feature=shared)
    15. [Example 0-9 Random Graph](https://editor.p5js.org/mhoumann87/sketches/rYpACaA-_)
    16. [Example 0-9 Perlin Noise Graph](https://editor.p5js.org/mhoumann87/sketches/JEafzhmGE)
-   17. [2d Perlin Noise Field](https://editor.p5js.org)
+   17. [2d Perlin Noise Field](https://editor.p5js.org/mhoumann87/sketches/0DFQbiBVB)
        - [Video Tutorial](https://youtu.be/Qf4dIN99e2w?feature=shared)
 
-   ### Help Projects
+   ### Helper Projects
 
    I have made a directory with some projects, that explain how some concepts works in P5js. There will be a video connected to each and the list will link to the video
 

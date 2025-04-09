@@ -11,6 +11,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
 ## Chapters
 
 0. Randomness and Noise
+
    1. [Random Walker](https://editor.p5js.org/mhoumann87/sketches/cWyhkRh9V)
    2. [Random Number Distribution](https://editor.p5js.org/mhoumann87/sketches/W53D6-MPrd)
    3. [Exercise 0-1 Random Walker](https://editor.p5js.org/mhoumann87/sketches/iBbeN4Sru)
@@ -31,4 +32,10 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
    15. [Example 0-9 Random Graph](https://editor.p5js.org/mhoumann87/sketches/rYpACaA-_)
    16. [Example 0-9 Perlin Noise Graph](https://editor.p5js.org/mhoumann87/sketches/JEafzhmGE)
    17. [2d Perlin Noise Field](https://editor.p5js.org)
-   - [Video Tutorial](https://youtu.be/Qf4dIN99e2w?feature=shared)
+       - [Video Tutorial](https://youtu.be/Qf4dIN99e2w?feature=shared)
+
+   ### Help Projects
+
+   I have made a directory with some projects, that explain how some concepts works in P5js. There will be a video connected to each and the list will link to the video
+
+   1. [The Pixel Array](https://youtu.be/nMUMZ5YRxHI?si=4-28wmOMcbvveQua)

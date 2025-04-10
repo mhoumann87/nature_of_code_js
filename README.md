@@ -33,6 +33,8 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
    16. [Example 0-9 Perlin Noise Graph](https://editor.p5js.org/mhoumann87/sketches/JEafzhmGE)
    17. [2d Perlin Noise Field](https://editor.p5js.org/mhoumann87/sketches/0DFQbiBVB)
        - [Video Tutorial](https://youtu.be/Qf4dIN99e2w?feature=shared)
+   18. [Exercise 0-8 noiseDetail() function](https://editor.p5js.org/mhoumann87/sketches/kxTI7BmsR)
+       - [Video about the noiseDetail()](https://youtu.be/D1BBj2VaBl4?si=C7O3Q4FXciNen8td)
 
    ### Helper Projects
 

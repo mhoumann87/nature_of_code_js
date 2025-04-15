@@ -4,6 +4,9 @@
 
   Exercise 0.10
   Use the noise values as the elevations of a landscape.
+
+  Read about WEBGL in P5JS
+  https://p5js.org/reference/p5/WEBGL/
 */
 
 // Global variables for our elements

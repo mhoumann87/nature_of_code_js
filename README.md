@@ -37,6 +37,10 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
        - [Video about the noiseDetail()](https://youtu.be/D1BBj2VaBl4?si=C7O3Q4FXciNen8td)
    19. [Exercise 0-10 Landscape](https://editor.p5js.org/mhoumann87/sketches/CeM7wcfoW)
 
+1. Vectors
+
+   1. [Example 1-1 Bouncing ball, no vectors](https://editor.p5js.org/mhoumann87/sketches/Nfr7SkWAp)
+
    ### Helper Projects
 
    I have made a directory with some projects, that explain how some concepts works in P5js. There will be a video connected to each and the list will link to the video

@@ -1,9 +1,4 @@
-// The Nature of Code
-// Daniel Shiffman
-// http://natureofcode.com
-
-// "Landscape" example
-
+// Function to create an 2d array
 function make2DArray(cols, rows) {
   let arr = new Array(cols);
   for (let i = 0; i < arr.length; i++) {
@@ -12,11 +7,12 @@ function make2DArray(cols, rows) {
   return arr;
 }
 
+// Class to create the landscape
 class Terrain {
 
   constructor(scl, w, h) {
     this.scl = scl;  // size of each cell
-    // width and height of thingie
+    // width and height of the terrain
     this.w = w; 
     this.h = h;
     // number of rows and columns
@@ -25,25 +21,25 @@ class Terrain {
     // using an array to store all the height values 
     this.z = make2DArray(this.cols,this.rows);
     // perlin noise argument
-    this.zoff = 0;
+    this.zOff = 0;
   }
 
 
-  // Calculate height values (based off a neural network)
+  // Calculate height values 
  calculate() {
-    let xoff = 0;
+    let xOff = 0;
     for (let i = 0; i < this.cols; i++) { 
-      let yoff = 0;
+      let yOff = 0;
       for (let j = 0; j < this.rows; j++) {
-        this.z[i][j] = map(noise(xoff, yoff,this.zoff), 0, 1, -120, 120);
-        yoff += 0.1;
+        this.z[i][j] = map(noise(xOff, yOff,this.zOff), 0, 1, -120, 120);
+        yOff += 0.1;
       }
-      xoff += 0.1;
+      xOff += 0.1;
     }
-    this.zoff+=0.01;
+    this.zOff+=0.01;
   }
 
-  // Render landscape as grid of quads
+  // Render landscape as grid of quads (a four sided shape)
   render() {
     // Every cell is an individual quad
     for (let x = 0; x < this.z.length-1; x++) {

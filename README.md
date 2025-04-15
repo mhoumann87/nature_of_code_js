@@ -35,6 +35,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
        - [Video Tutorial](https://youtu.be/Qf4dIN99e2w?feature=shared)
    18. [Exercise 0-8 noiseDetail() function](https://editor.p5js.org/mhoumann87/sketches/kxTI7BmsR)
        - [Video about the noiseDetail()](https://youtu.be/D1BBj2VaBl4?si=C7O3Q4FXciNen8td)
+   19. [Exercise 0-10 Landscape](https://editor.p5js.org/mhoumann87/sketches/CeM7wcfoW)
 
    ### Helper Projects
 

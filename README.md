@@ -40,6 +40,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
 1. Vectors
 
    1. [Example 1-1 Bouncing ball, no vectors](https://editor.p5js.org/mhoumann87/sketches/Nfr7SkWAp)
+   2. [Example 1-2 Bouncing Ball With Vectors](https://editor.p5js.org/mhoumann87/sketches/OgeAzef7-)
 
    ### Helper Projects
 

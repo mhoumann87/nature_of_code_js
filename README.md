@@ -42,6 +42,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
    1. [Example 1-1 Bouncing ball, no vectors](https://editor.p5js.org/mhoumann87/sketches/Nfr7SkWAp)
    2. [Example 1-2 Bouncing Ball With Vectors](https://editor.p5js.org/mhoumann87/sketches/OgeAzef7-)
    3. [Exercise 1-1 Walker using vectors](https://editor.p5js.org/mhoumann87/sketches/sJY6oUDeO)
+      - [Video about vectors and the walker](https://youtu.be/bKEaK7WNLzM?feature=shared)
 
    ### Helper Projects
 

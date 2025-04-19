@@ -1,15 +1,15 @@
 /* 
   Author Michael Houmann
-  Created 
+  Created
 */
 
 
 
 function setup() {
   createCanvas(640, 400);
-
 }
 
-function draw() {
-  background(227);
-}
+  function draw() {
+    background(227);
+  }
+  

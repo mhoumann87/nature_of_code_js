@@ -45,6 +45,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
       - [Video about vectors and the walker](https://youtu.be/bKEaK7WNLzM?feature=shared)
    4. [Extra project 1-1-2 Walker using velocity](https://editor.p5js.org/mhoumann87/sketches/eKRBJEmpL)
    5. [Example 1-3 Vector subtraction](https://editor.p5js.org/mhoumann87/sketches/vRbDtY_v1)
+   6. [Example 1-4 Vector multiplication](https://editor.p5js.org/mhoumann87/sketches/K1p17fPdM)
 
    ### Helper Projects
 

@@ -46,6 +46,8 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
    4. [Extra project 1-1-2 Walker using velocity](https://editor.p5js.org/mhoumann87/sketches/eKRBJEmpL)
    5. [Example 1-3 Vector subtraction](https://editor.p5js.org/mhoumann87/sketches/vRbDtY_v1)
    6. [Example 1-4 Vector multiplication](https://editor.p5js.org/mhoumann87/sketches/K1p17fPdM)
+   7. [Example 1-5 Vector Magnitude](https://editor.p5js.org/mhoumann87/sketches/kC3_fq24S)
+   8. [Example 1-6 Normalize a vector](https://editor.p5js.org/mhoumann87/sketches/cFJlDZKEP)
 
    ### Helper Projects
 

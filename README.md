@@ -48,6 +48,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
    6. [Example 1-4 Vector multiplication](https://editor.p5js.org/mhoumann87/sketches/K1p17fPdM)
    7. [Example 1-5 Vector Magnitude](https://editor.p5js.org/mhoumann87/sketches/kC3_fq24S)
    8. [Example 1-6 Normalize a vector](https://editor.p5js.org/mhoumann87/sketches/cFJlDZKEP)
+   9. [Example 1-7 Velocity](https://editor.p5js.org/mhoumann87/sketches/OLq5Mt_I0)
 
    ### Helper Projects
 

@@ -49,6 +49,8 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
    7. [Example 1-5 Vector Magnitude](https://editor.p5js.org/mhoumann87/sketches/kC3_fq24S)
    8. [Example 1-6 Normalize a vector](https://editor.p5js.org/mhoumann87/sketches/cFJlDZKEP)
    9. [Example 1-7 Velocity](https://editor.p5js.org/mhoumann87/sketches/OLq5Mt_I0)
+   10. [Example 1-8 Acceleration](https://editor.p5js.org/mhoumann87/sketches/JxPigce3I)
+   11. [Exercise 1-5 User add acceleration](https://editor.p5js.org/mhoumann87/sketches/7yF9e6WHd)
 
    ### Helper Projects
 

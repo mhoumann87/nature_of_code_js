@@ -51,6 +51,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
    9. [Example 1-7 Velocity](https://editor.p5js.org/mhoumann87/sketches/OLq5Mt_I0)
    10. [Example 1-8 Acceleration](https://editor.p5js.org/mhoumann87/sketches/JxPigce3I)
    11. [Exercise 1-5 User add acceleration](https://editor.p5js.org/mhoumann87/sketches/7yF9e6WHd)
+   12. [Example 1-9 Random Acceleration](https://editor.p5js.org/mhoumann87/sketches/q0WKl_WNH)
 
    ### Helper Projects
 

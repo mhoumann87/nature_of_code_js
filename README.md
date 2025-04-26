@@ -53,6 +53,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
    11. [Exercise 1-5 User add acceleration](https://editor.p5js.org/mhoumann87/sketches/7yF9e6WHd)
    12. [Example 1-9 Random Acceleration](https://editor.p5js.org/mhoumann87/sketches/q0WKl_WNH)
    13. [Exercise 1-6 Vector Walker]() !TODO when brain works again
+   14. [Example 1-10 Accelerate towards the mouse](https://editor.p5js.org/mhoumann87/sketches/Z1gKP7AaU)
 
    ### Helper Projects
 

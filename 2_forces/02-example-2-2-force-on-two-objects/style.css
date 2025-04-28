@@ -1,0 +1,13 @@
+html {
+  color-scheme: dark light;
+}
+
+body {
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+  }
+}

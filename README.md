@@ -58,6 +58,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
 2. Forces
 
    1. [Example 2-1 Apply Forces](https://editor.p5js.org/mhoumann87/sketches/AUkHyvQw-)
+   2. [€xample 2-2 Apply Forces to two objects](https://editor.p5js.org/mhoumann87/sketches/wa1VRafOL)
 
    ### Helper Projects
 

@@ -36,6 +36,7 @@ The different chapters will be up at [P5.js Web Editor](https://editor.p5js.org)
    18. [Exercise 0-8 noiseDetail() function](https://editor.p5js.org/mhoumann87/sketches/kxTI7BmsR)
        - [Video about the noiseDetail()](https://youtu.be/D1BBj2VaBl4?si=C7O3Q4FXciNen8td)
    19. [Exercise 0-10 Landscape](https://editor.p5js.org/mhoumann87/sketches/CeM7wcfoW)
+   20. [Coding Challenge #24 Perlin Noise Flow Field](https://thecodingtrain.com/challenges/24-perlin-noise-flow-field)
 
 1. Vectors
 

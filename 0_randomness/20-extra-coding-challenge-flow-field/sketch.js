@@ -19,6 +19,8 @@ const scale = 10;
 let cols, rows;
 // A variable for framerate
 let fr;
+// We can use a z offset for "time" and change that in our flow field
+let zOffset = 0;
 
 function setup() {
   createCanvas(200, 200);
@@ -35,21 +37,32 @@ function setup() {
 }
 
   function draw() {
+    background(255);
     let yOffset = 0;
 
     for (let y = 0; y < rows; y++) {
       let xOffset = 0;
       for (let x = 0; x < cols ; x++) {
-        // remember 4 pixels for every one in our array
-        const index = (x + y * width) * 4;
-        // Now we can base our color on the noise function
-        let color = noise(xOffset, yOffset) * 255;
-        fill(color);
-        rect(x * scale, y * scale, scale, scale);
-
+        // Now we can base our angle of the vector on the noise function
+        const angle = noise(xOffset, yOffset, zOffset) * TWO_PI;
+        // Create a vector from an angle for the fields
+        const v = p5.Vector.fromAngle(angle);
+        stroke(0);
+        // Limit the effect of the drawing to one field
+        push()
+        // move the 0, 0 point to right bottom corner of the field
+        translate(x * scale, y * scale);
+        // Using our vector to rotate direction
+        rotate(v.heading());
+        line(0, 0, scale, 0);
+        // Make the drawing "normal", (pop out of the push() mode)
+        pop();
         xOffset += increment;
       }
       yOffset += increment;
+      // We cant use the increment variable for the zOffset, it make 
+      // it move to fast
+      zOffset += 0.001;
     }
 
     fr.html(floor(frameRate()));

@@ -17,6 +17,14 @@ class Particle {
     this.acceleration.add(force);
   }
 
+  follow(vectors) {
+    let x = floor(this.position.x / scale);
+    let y = floor(this.position.y / scale);
+    let index = x + y * cols;
+    let force = vectors[index];
+    this.applyForce(force);
+  }
+
   show() {
     stroke(0);
     point(this.position.x, this.position.y);

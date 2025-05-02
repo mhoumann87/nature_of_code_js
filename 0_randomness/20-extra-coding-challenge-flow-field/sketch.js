@@ -21,6 +21,10 @@ let cols, rows;
 let fr;
 // We can use a z offset for "time" and change that in our flow field
 let zOffset = 0;
+// We need an array to store the particles
+const particles = [];
+// We need an array to store the noise() values for each column and row
+let flowField;
 
 function setup() {
   createCanvas(200, 200);
@@ -34,6 +38,9 @@ function setup() {
 
   // Just to check the framerate
   fr = createP('');
+
+  //set up the flowField array
+  flowField = new Array(cols * rows);
 }
 
   function draw() {
@@ -47,6 +54,10 @@ function setup() {
         const angle = noise(xOffset, yOffset, zOffset) * TWO_PI;
         // Create a vector from an angle for the fields
         const v = p5.Vector.fromAngle(angle);
+        // we use the old color calculation, but DO NOT multiply by 4
+        const index = x + y * cols;
+        // And we fill it with the angle vector v
+        flowField[index] = v;
         stroke(0);
         // Limit the effect of the drawing to one field
         push()

@@ -27,7 +27,7 @@ const particles = [];
 let flowField;
 
 function setup() {
-  createCanvas(200, 200);
+  createCanvas(600, 200);
   // To get it to look alike on all screen resolutions
   // pixelDensity(1);
 
@@ -41,39 +41,53 @@ function setup() {
 
   //set up the flowField array
   flowField = new Array(cols * rows);
+
+  // Use the particles array with particles
+  for (let i = 0; i < 300; i++) {
+    particles[i] = new Particle();
+  }
+  background(220);
 }
 
   function draw() {
-    background(255);
     let yOffset = 0;
 
     for (let y = 0; y < rows; y++) {
       let xOffset = 0;
       for (let x = 0; x < cols ; x++) {
         // Now we can base our angle of the vector on the noise function
-        const angle = noise(xOffset, yOffset, zOffset) * TWO_PI;
+        const angle = noise(xOffset, yOffset, zOffset) * TWO_PI * 4;
         // Create a vector from an angle for the fields
         const v = p5.Vector.fromAngle(angle);
+        v.setMag(1);
         // we use the old color calculation, but DO NOT multiply by 4
         const index = x + y * cols;
         // And we fill it with the angle vector v
         flowField[index] = v;
-        stroke(0);
+        stroke(0, 50);
         // Limit the effect of the drawing to one field
-        push()
+        /* push()
         // move the 0, 0 point to right bottom corner of the field
         translate(x * scale, y * scale);
         // Using our vector to rotate direction
         rotate(v.heading());
         line(0, 0, scale, 0);
         // Make the drawing "normal", (pop out of the push() mode)
-        pop();
+        pop(); */
         xOffset += increment;
       }
       yOffset += increment;
       // We cant use the increment variable for the zOffset, it make 
       // it move to fast
       zOffset += 0.001;
+    }
+
+    // Fill the canvas with particles
+    for (let i = 0; i < particles.length; i++) {
+      particles[i].follow(flowField);
+      particles[i].update();
+      particles[i].checkEdges();
+      particles[i].show();
     }
 
     fr.html(floor(frameRate()));
